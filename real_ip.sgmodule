@@ -1,0 +1,9 @@
+#!name= ASurge: Real IP
+#!desc= Real IP, needed for services like tailscale which require a real IP address
+#!category= ASurge
+#!date = 2025-10-08 00:00:00
+#!homepage = https://github.com/wongjustin99/surge-modules
+#!system=mac
+
+[General]
+always-real-ip = %APPEND% time.*.com, time.*.apple.com, localhost.ptlogin2.qq.com, stun.l.google.com,  *.ts.net, *.*.ts.net, controlplane.tailscale.com, derp*.*.*
